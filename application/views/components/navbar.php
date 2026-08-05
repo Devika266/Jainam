@@ -23,7 +23,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">Get a Quote</a>
+                            <a href="contact.html" class="btn-white-blue">Get a Quote</a>
                         </div>
                         <!-- Header Btn End -->
                     </div>

@@ -72,11 +72,11 @@
 
 							<div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
 
-								<a href="<?php echo base_url('contact'); ?>" class="btn-default btn-highlighted">
+								<a href="<?php echo base_url('contact'); ?>" class="btn-white-blue">
 									Get a Quote
 								</a>
 
-								<a href="<?php echo base_url('about'); ?>" class="btn-default ms-3">
+								<a href="<?php echo base_url('about'); ?>" class="btn-white-blue">
 									Learn More
 								</a>
 
@@ -120,362 +120,273 @@
 	<!-- Hero Section End -->
 
 	<!-- About Us Section Start -->
-	<!-- About Us Section Start -->
-	<div class="about-us">
-		<div class="container">
-			<div class="row section-row">
-				<div class="col-lg-12">
+	<div class="why-choose-us-prime">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <!-- Why Choose Image Box Start -->
+                    <div class="why-choose-image-box-prime wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Why Choose Image Start -->
+                        <div class="why-choose-image-prime">
+                            <figure class="image-anime">
+                                <img src="<?php echo base_url()?>assets/images/about.jpg" alt="">
+                            </figure>
+                        </div>
+                        <!-- Why Choose Image End -->
 
-					<!-- Section Title Start -->
-					<div class="section-title section-title-center">
-						<h3 class="wow fadeInUp">About Jainam Logistics</h3>
+                        <!-- Experience Year Box Start -->
+                        <div class="experience-year-box-prime">
+                            <!-- Satisfy Client Images Start -->
+                            <div class="satisfy-client-images">
+                                <div class="satisfy-client-image">
+                                    <figure class="image-anime">
+                                        <img src="<?php echo base_url()?>assets/images/author-1.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="satisfy-client-image">
+                                    <figure class="image-anime">
+                                        <img src="<?php echo base_url()?>assets/images/author-2.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="satisfy-client-image">
+                                    <figure class="image-anime">
+                                        <img src="<?php echo base_url()?>assets/images/author-3.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <!-- Satisfy Client Images End -->
 
-						<h2 class="text-effect" data-cursor="-opaque">
-							Delivering trusted <span class="about-us-title-image-1">
-								<img src="<?php echo base_url()?>assets/images/about-us-title-image-1.jpg" alt="">
-							</span>
-							logistics and transportation solutions with
-							<span class="about-us-title-image-2">
-								<img src="<?php echo base_url()?>assets/images/about-us-title-image-2.jpg" alt="">
-							</span>
-							a commitment to safety, reliability and on-time deliveries across India.
-						</h2>
-					</div>
-					<!-- Section Title End -->
+                            <!-- Experience Year Content Start -->
+                            <div class="experience-year-content-prime">
+                                <p>Years Experience</p>
+                                <h2><span class="counter">25</span>k+</h2>
+                            </div>
+                            <!-- Experience Year Content End -->
+                        </div>
+                        <!-- Experience Year Box End -->
+                    </div>
+                    <!-- Why Choose Image Box End -->
+                </div>
 
-				</div>
-			</div>
+                <div class="col-xl-6">
+                    <!-- Why Choose Content Start -->
+                    <div class="why-choose-content-prime">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">About Us</h3>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Your trusted partner for global logistics excellence</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">We specialize in delivering comprehensive transportation and logistics solutions businesses can rely on. With a global network, advanced tracking systems.</p>
+                        </div>
+                        <!-- Section Title End -->
 
-			<div class="row">
+                        <!-- Why Choose List Start -->
+                        <div class="why-choose-list-prime wow fadeInUp" data-wow-delay="0.4s">
+                            <ul>
+                                <li>Reliable Logistics You Can Trust Always</li>
+                                <li>Delivering Excellence Across Every Route</li>
+                                <li>Smart Technology for Smarter Deliveries</li>
+                                <li>Experienced Logistics Management Team</li>
+                                <li>Customized Plans Tailored to Your Needs</li>
+                                <li>Affordable, Efficient Logistics Solutions</li>
+                            </ul>
+                        </div>
+                        <!-- Why Choose List End -->
 
-				<!-- Left Image -->
-				<div class="col-xl-4 col-md-6">
+                        <!-- Why Choose Counter List Start -->
+                        <div class="why-choose-counter-list-prime wow fadeInUp">
+                            <!-- Why Choose Counter Item Start -->
+                            <div class="why-choose-counter-item-prime">
+                                <div class="icon-box">
+                                    <img src="<?php echo base_url()?>assets/images/icon-why-choose-counter-1-prime.svg" alt="">
+                                </div>
+                                <div class="why-choose-counter-content-prime">
+                                    <h2><span class="counter">25</span>k+</h2>
+                                    <p>Successful delivery</p>
+                                </div>
+                            </div>
+                            <!-- Why Choose Counter Item End -->
 
-					<div class="about-us-image-box wow fadeInUp">
+                            <!-- Why Choose Counter Item Start -->
+                            <div class="why-choose-counter-item-prime">
+                                <div class="icon-box">
+                                    <img src="<?php echo base_url()?>assets/images/icon-why-choose-counter-2-prime.svg" alt="">
+                                </div>
+                                <div class="why-choose-counter-content-prime">
+                                    <h2><span class="counter">85</span>+</h2>
+                                    <p>Countries Reached</p>
+                                </div>
+                            </div>
+                            <!-- Why Choose Counter Item End -->
 
-						<div class="about-us-image">
-							<figure class="image-anime">
-								<img src="<?php echo base_url()?>assets/images/about-us-image.jpg" alt="">
-							</figure>
-						</div>
+                            <!-- Why Choose Counter Item Start -->
+                            <div class="why-choose-counter-item-prime">
+                                <div class="icon-box">
+                                    <img src="<?php echo base_url()?>assets/images/icon-why-choose-counter-3-prime.svg" alt="">
+                                </div>
+                                <div class="why-choose-counter-content-prime">
+                                    <h2><span class="counter">500</span>+</h2>
+                                    <p>Dedicated Logistics</p>
+                                </div>
+                            </div>
+                            <!-- Why Choose Counter Item End -->
+                        </div>
+                        <!-- Why Choose Counter List End -->
 
-						<div class="about-counter-box">
-							<h2><span class="counter">24</span>/7</h2>
-							<p>Customer Support</p>
-						</div>
-
-					</div>
-
-				</div>
-
-				<!-- Middle Box -->
-				<div class="col-xl-4 col-md-6">
-
-					<div class="about-us-item wow fadeInUp" data-wow-delay="0.2s">
-
-						<div class="about-us-item-content">
-							<h3>Reliable Transportation Backed by Modern Infrastructure</h3>
-
-							<p>
-								Jainam Logistics provides dependable freight and transportation
-								services through a modern fleet, experienced professionals,
-								advanced tracking systems and customer-focused logistics solutions.
-							</p>
-						</div>
-
-						<div class="about-us-body">
-
-							<div class="about-counter-box">
-								<h2><span class="counter">15</span>+</h2>
-								<p>Years of Experience</p>
-							</div>
-
-							<div class="about-us-body-image">
-								<figure>
-									<img src="<?php echo base_url()?>assets/images/about-us-body-image.png" alt="">
-								</figure>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<!-- Right Box -->
-				<div class="col-xl-4 col-md-6">
-
-					<div class="about-us-item highlighted-box wow fadeInUp" data-wow-delay="0.4s">
-
-						<div class="about-us-item-content">
-
-							<p>
-								We are committed to delivering safe, efficient and cost-effective
-								logistics services that help businesses move their goods with
-								confidence across the country.
-							</p>
-
-						</div>
-
-						<div class="about-us-list-btn">
-
-							<div class="about-us-item-list">
-
-								<ul>
-									<li>Safe & Secure Cargo Transportation</li>
-
-									<li>GPS Enabled Fleet with Timely Delivery</li>
-
-								</ul>
-
-							</div>
-
-							<div class="about-us-item-btn">
-
-								<a href="<?php echo base_url('about'); ?>" class="btn-default btn-highlighted">
-									Learn More
-								</a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<!-- Bottom -->
-				<div class="col-lg-12">
-
-					<div class="section-footer-text wow fadeInUp" data-wow-delay="0.4s">
-
-						<p>
-							Your trusted logistics partner for reliable transportation solutions.
-							<a href="<?php echo base_url('contact'); ?>">Get in Touch</a>
-						</p>
-
-						<ul>
-
-							<li><span class="counter">98</span>%</li>
-
-							<li>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-							</li>
-
-							<li>On-Time Delivery Rate</li>
-
-						</ul>
-
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
-	<!-- About Us Section End -->
+                        <!-- Why Choose Button Start -->
+                        <div class="why-choose-btn-prime wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="contact.html" class="btn-default">Read More</a>
+                        </div>
+                        <!-- Why Choose Button End -->
+                    </div>
+                    <!-- Why Choose Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
 	<!-- About Us Section End -->
 
-	<!-- Our Services Section Start -->
-	<div class="our-services bg-section">
-		<div class="container">
+	<!-- Our categories Section Start -->
+	<div class="our-services-prime bg-section">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title section-title-center">
+                        <h3 class="wow fadeInUp">Sourcing Catalog</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Premium Import & Export Categories</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
 
-			<div class="row section-row">
-				<div class="col-lg-12">
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item-prime wow fadeInUp">
+                        <!-- Service Image Start -->
+                        <div class="service-item-image-prime">
+                            <a href="service-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="<?php echo base_url()?>assets/images/feature1.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
 
-					<!-- Section Title Start -->
-					<div class="section-title section-title-center">
-						<h3 class="wow fadeInUp">Our Transportation Services</h3>
-						<h2 class="text-anime-style-3" data-cursor="-opaque">
-							Comprehensive logistics solutions tailored to meet your transportation needs.
-						</h2>
-					</div>
-					<!-- Section Title End -->
+                        <!-- Service Body Start -->
+                        <div class="service-item-body-prime">
+                            <div class="icon-box">
+                                <img src="<?php echo base_url()?>assets/images/icon-service-1-prime.svg" alt="">
+                            </div>
+                            <div class="service-item-content-prime">
+                                <h3><a href="service-single.html">Premium Agriculture </a></h3>
+                                <p>Apples, Citrus, Grapes, and Tropical Fruits sourced directly from certified orchards with full cold-chain custody..</p>
+                            </div>
+                            <div class="service-item-btn-prime">
+                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Service Body End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
 
-				</div>
-			</div>
+                <div class="col-xl-3 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item-prime wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Service Image Start -->
+                        <div class="service-item-image-prime">
+                            <a href="service-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="<?php echo base_url()?>assets/images/feature2.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
 
-			<div class="row">
+                        <!-- Service Body Start -->
+                        <div class="service-item-body-prime">
+                            <div class="icon-box">
+                                <img src="<?php echo base_url()?>assets/images/icon-service-2-prime.svg" alt="">
+                            </div>
+                            <div class="service-item-content-prime">
+                                <h3><a href="service-single.html">Farm Sourced</a></h3>
+                                <p>Root vegetables, leafy greens, and exotic varieties processed in certified grading facilities under strict hygienic control.</p>
+                            </div>
+                            <div class="service-item-btn-prime">
+                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Service Body End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
 
-				<!-- Service 1 -->
-				<div class="col-xl-3 col-md-6">
-					<div class="service-item service-box-1 wow fadeInUp">
+                <div class="col-xl-3 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item-prime wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- Service Image Start -->
+                        <div class="service-item-image-prime">
+                            <a href="service-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="<?php echo base_url()?>assets/images/feature3.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
 
-						<div class="service-item-image">
-							<a href="<?php echo base_url('services'); ?>" data-cursor-text="View">
-								<figure>
-									<img src="<?php echo base_url()?>assets/images/service-1.jpg" alt="">
-								</figure>
-							</a>
-						</div>
+                        <!-- Service Body Start -->
+                        <div class="service-item-body-prime">
+                            <div class="icon-box">
+                                <img src="<?php echo base_url()?>assets/images/icon-service-3-prime.svg" alt="">
+                            </div>
+                            <div class="service-item-content-prime">
+                                <h3><a href="service-single.html">Global Origins</a></h3>
+                                <p>Whole and ground spices including cardamom, black pepper, turmeric, and cumin with certified ASTA cleanliness standards.</p>
+                            </div>
+                            <div class="service-item-btn-prime">
+                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Service Body End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
 
-						<div class="service-item-body">
+                <div class="col-xl-3 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item-prime wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- Service Image Start -->
+                        <div class="service-item-image-prime">
+                            <a href="service-single.html" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="<?php echo base_url()?>assets/images/feature4.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
 
-							<div class="icon-box">
-								<i class="fa-solid fa-truck"></i>
-							</div>
-
-							<div class="service-item-content">
-								<h3>
-									<a href="<?php echo base_url('services'); ?>">
-										Full Truck Load (FTL)
-									</a>
-								</h3>
-
-								<p>
-									Dedicated truck transportation for bulk cargo with safe, secure and timely
-									deliveries.
-								</p>
-							</div>
-
-							<div class="service-item-btn">
-								<a href="<?php echo base_url('services'); ?>" class="readmore-btn">
-									View Details
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Service 2 -->
-				<div class="col-xl-3 col-md-6">
-					<div class="service-item service-box-2 wow fadeInUp" data-wow-delay="0.2s">
-
-						<div class="service-item-image">
-							<a href="<?php echo base_url('services'); ?>" data-cursor-text="View">
-								<figure>
-									<img src="<?php echo base_url()?>assets/images/service-2.jpg" alt="">
-								</figure>
-							</a>
-						</div>
-
-						<div class="service-item-body">
-
-							<div class="icon-box">
-								<i class="fa-solid fa-truck-fast"></i> </div>
-
-							<div class="service-item-content">
-								<h3>
-									<a href="<?php echo base_url('services'); ?>">
-										Part Truck Load (LTL)
-									</a>
-								</h3>
-
-								<p>
-									Cost-effective transportation for small and medium-sized consignments across India.
-								</p>
-							</div>
-
-							<div class="service-item-btn">
-								<a href="<?php echo base_url('services'); ?>" class="readmore-btn">
-									View Details
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Service 3 -->
-				<div class="col-xl-3 col-md-6">
-					<div class="service-item service-box-3 wow fadeInUp" data-wow-delay="0.4s">
-
-						<div class="service-item-image">
-							<a href="<?php echo base_url('services'); ?>" data-cursor-text="View">
-								<figure>
-									<img src="<?php echo base_url()?>assets/images/service-3.jpg" alt="">
-								</figure>
-							</a>
-						</div>
-
-						<div class="service-item-body">
-
-							<div class="icon-box">
-								<i class="fa-solid fa-boxes-stacked"></i> </div>
-
-							<div class="service-item-content">
-								<h3>
-									<a href="<?php echo base_url('services'); ?>">
-										Industrial Logistics
-									</a>
-								</h3>
-
-								<p>
-									Reliable logistics support for manufacturing, engineering and industrial businesses.
-								</p>
-							</div>
-
-							<div class="service-item-btn">
-								<a href="<?php echo base_url('services'); ?>" class="readmore-btn">
-									View Details
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Service 4 -->
-				<div class="col-xl-3 col-md-6">
-					<div class="service-item service-box-4 wow fadeInUp" data-wow-delay="0.6s">
-
-						<div class="service-item-image">
-							<a href="<?php echo base_url('services'); ?>" data-cursor-text="View">
-								<figure>
-									<img src="<?php echo base_url()?>assets/images/service-4.jpg" alt="">
-								</figure>
-							</a>
-						</div>
-
-						<div class="service-item-body">
-
-							<div class="icon-box">
-								<i class="fa-solid fa-warehouse"></i>
-							</div>
-
-							<div class="service-item-content">
-								<h3>
-									<a href="<?php echo base_url('services'); ?>">
-										Warehousing & Distribution
-									</a>
-								</h3>
-
-								<p>
-									Secure warehousing, inventory management and efficient distribution services.
-								</p>
-							</div>
-
-							<div class="service-item-btn">
-								<a href="<?php echo base_url('services'); ?>" class="readmore-btn">
-									View Details
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<!-- Footer Text -->
-				<div class="col-lg-12">
-					<div class="section-footer-text wow fadeInUp" data-wow-delay="0.4s">
-						<p>
-							<span>Need</span> a reliable logistics partner?
-							<a href="<?php echo base_url('contact'); ?>">
-								Request a Free Quote
-							</a>
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	<!-- Our Services Section End -->
+                        <!-- Service Body Start -->
+                        <div class="service-item-body-prime">
+                            <div class="icon-box">
+                                <img src="<?php echo base_url()?>assets/images/icon-service-4-prime.svg" alt="">
+                            </div>
+                            <div class="service-item-content-prime">
+                                <h3><a href="service-single.html">Nutritional Grade</a></h3>
+                                <p>Premium walnuts, almonds, cashews, raisins, and dates sourced from select global cultivators, fully tested for aflatoxins.</p>
+                            </div>
+                            <div class="service-item-btn-prime">
+                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Service Body End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Our categories Section End -->
 
 	<!-- Integrated Services Section Start -->
 	<div class="our-project">
@@ -493,165 +404,183 @@
 			</div>
 
 			<div class="row">
+				<div class="col-lg-12">
 
-				<!-- Card 1 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-1.jpg" alt="">
-							</figure>
-						</div>
+					<!-- Project Slider Start -->
+					<div class="project-slider">
+						<div class="swiper">
+							<div class="swiper-wrapper">
 
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Transportation</li>
-								</ul>
+								<!-- Card 1 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project1.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Transportation</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>Road Transportation</h3>
+												<p>Safe and reliable transportation services across India with timely
+													deliveries.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Card 2 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project2.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Freight</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>Full Truck Load (FTL)</h3>
+												<p>Dedicated transportation solutions for bulk shipments with complete
+													safety.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Card 3 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project3.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Distribution</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>Part Truck Load (LTL)</h3>
+												<p>Affordable transportation for smaller consignments with optimized
+													delivery.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Card 4 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project4.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Warehouse</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>Warehousing & Distribution</h3>
+												<p>Secure warehousing with inventory management and efficient
+													distribution services.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Card 5 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project5.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Supply Chain</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>Supply Chain Solutions</h3>
+												<p>End-to-end logistics planning and supply chain management for
+													businesses.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Card 6 -->
+								<div class="swiper-slide">
+									<div class="project-item">
+										<div class="project-item-image">
+											<figure>
+												<img src="<?php echo base_url()?>assets/images/project6.jpg" alt="">
+											</figure>
+										</div>
+
+										<div class="project-item-body">
+											<div class="project-item-tag">
+												<ul>
+													<li>Tracking</li>
+												</ul>
+											</div>
+
+											<div class="project-item-content">
+												<h3>GPS Fleet Tracking</h3>
+												<p>Real-time shipment tracking and complete visibility throughout
+													transportation.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
 							</div>
 
-							<div class="project-item-content">
-								<h3>Road Transportation</h3>
-								<p>Safe and reliable transportation services across India with timely deliveries.</p>
-							</div>
+							<!-- Pagination -->
+							<div class="project-pagination"></div>
+
 						</div>
 					</div>
+					<!-- Project Slider End -->
+
 				</div>
-
-				<!-- Card 2 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.2s">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-2.jpg" alt="">
-							</figure>
-						</div>
-
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Freight</li>
-								</ul>
-							</div>
-
-							<div class="project-item-content">
-								<h3>Full Truck Load (FTL)</h3>
-								<p>Dedicated transportation solutions for bulk shipments with complete safety.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 3 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.4s">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-3.jpg" alt="">
-							</figure>
-						</div>
-
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Distribution</li>
-								</ul>
-							</div>
-
-							<div class="project-item-content">
-								<h3>Part Truck Load (LTL)</h3>
-								<p>Affordable transportation for smaller consignments with optimized delivery.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 4 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-4.jpg" alt="">
-							</figure>
-						</div>
-
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Warehouse</li>
-								</ul>
-							</div>
-
-							<div class="project-item-content">
-								<h3>Warehousing & Distribution</h3>
-								<p>Secure warehousing with inventory management and efficient distribution services.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 5 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.2s">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-5.jpg" alt="">
-							</figure>
-						</div>
-
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Supply Chain</li>
-								</ul>
-							</div>
-
-							<div class="project-item-content">
-								<h3>Supply Chain Solutions</h3>
-								<p>End-to-end logistics planning and supply chain management for businesses.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Card 6 -->
-				<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.4s">
-					<div class="project-item">
-						<div class="project-item-image">
-							<figure>
-								<img src="<?php echo base_url()?>assets/images/project-1.jpg" alt="">
-							</figure>
-						</div>
-
-						<div class="project-item-body">
-							<div class="project-item-tag">
-								<ul>
-									<li>Tracking</li>
-								</ul>
-							</div>
-
-							<div class="project-item-content">
-								<h3>GPS Fleet Tracking</h3>
-								<p>Real-time shipment tracking and complete visibility throughout transportation.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
 			</div>
 
 			<div class="row">
 				<div class="col-lg-12">
-
 					<div class="section-footer-text text-center wow fadeInUp">
-
 						<p>
 							Delivering reliable logistics solutions with safety, speed and efficiency.
 							<a href="<?php echo base_url('contact');?>">Get a Free Quote</a>
 						</p>
-
 					</div>
-
 				</div>
 			</div>
 
@@ -659,7 +588,7 @@
 	</div>
 	<!-- Integrated Services Section End -->
 
-	<!-- Interactive Process Layout Start -->
+	<!-- feaature Layout Start -->
 	<div class="interactive interactive-process-layout bg-section">
 
 		<div class="interactive-interactive-process-wrapper interactive-wrapper">
@@ -679,9 +608,8 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Experienced Logistics Team</a></h3>
-										<p>Our skilled professionals ensure smooth planning, execution and reliable
-											transportation for every shipment.</p>
+										<h3><a href="#">Guaranteed Cold Chain</a></h3>
+										<p>Continuous temperature logging and controlled atmosphere containers protect agricultural integrity.</p>
 									</div>
 
 								</div>
@@ -701,9 +629,8 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Modern GPS Enabled Fleet</a></h3>
-										<p>Track every shipment with advanced GPS technology for complete visibility and
-											peace of mind.</p>
+										<h3><a href="#">Direct Farm Sourcing</a></h3>
+										<p>By eliminating speculative intermediaries, we lock in superior pricing and verified crop origins.</p>
 									</div>
 
 								</div>
@@ -723,9 +650,8 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Safe & Timely Deliveries</a></h3>
-										<p>Every consignment is handled with care and delivered on schedule without
-											compromising safety.</p>
+										<h3><a href="#">Risk Mitigation</a></h3>
+										<p>Comprehensive marine cargo insurance and robust commercial contract structures secure your capital.</p>
 									</div>
 
 								</div>
@@ -745,9 +671,8 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">24×7 Customer Support</a></h3>
-										<p>Our dedicated support team is always available to assist you and provide
-											shipment updates whenever required.</p>
+										<h3><a href="#">Real-Time Tracking</a></h3>
+										<p>Full milestone telemetry from shipping line dispatch through to port customs clearance and final delivery</p>
 									</div>
 
 								</div>
@@ -761,23 +686,23 @@
 				<div class="interactive-process-list-image">
 
 					<div class="interactive-process-image img-0 show"
-						data-bg="<?php echo base_url()?>assets/images/interactive-process-image-1.jpg"
-						style="background-image:url('<?php echo base_url()?>assets/images/interactive-process-image-1.jpg');">
+						data-bg="<?php echo base_url()?>assets/images/feature1.jpg"
+						style="background-image:url('<?php echo base_url()?>assets/images/feature1.jpg');">
 					</div>
 
 					<div class="interactive-process-image img-1"
-						data-bg="<?php echo base_url()?>assets/images/interactive-process-image-2.jpg"
-						style="background-image:url('<?php echo base_url()?>assets/images/interactive-process-image-2.jpg');">
+						data-bg="<?php echo base_url()?>assets/images/feature2.jpg"
+						style="background-image:url('<?php echo base_url()?>assets/images/feature2.jpg');">
 					</div>
 
 					<div class="interactive-process-image img-2"
-						data-bg="<?php echo base_url()?>assets/images/interactive-process-image-3.jpg"
-						style="background-image:url('<?php echo base_url()?>assets/images/interactive-process-image-3.jpg');">
+						data-bg="<?php echo base_url()?>assets/images/feature3.jpg"
+						style="background-image:url('<?php echo base_url()?>assets/images/feature3.jpg');">
 					</div>
 
 					<div class="interactive-process-image img-3"
-						data-bg="<?php echo base_url()?>assets/images/interactive-process-image-4.jpg"
-						style="background-image:url('<?php echo base_url()?>assets/images/interactive-process-image-4.jpg');">
+						data-bg="<?php echo base_url()?>assets/images/feature4.jpg"
+						style="background-image:url('<?php echo base_url()?>assets/images/feature4.jpg');">
 					</div>
 
 				</div>
@@ -786,7 +711,7 @@
 		</div>
 
 	</div>
-	<!-- Interactive Process Layout End -->
+	<!-- FeaturesLayout End -->
 
 	<!-- Our Testimonials Section Start -->
 	<div class="our-testimonials bg-section">
@@ -798,7 +723,7 @@
 						<!-- Testimonial Image Start -->
 						<div class="testimonial-image">
 							<figure class="image-anime">
-								<img src="<?php echo base_url()?>assets/images/testimonial-image.jpg" alt="">
+								<img src="<?php echo base_url()?>assets/images/testimonial.jpg" alt="">
 							</figure>
 						</div>
 						<!-- Testimonial Image End -->
@@ -953,13 +878,13 @@
 					<div class="post-item wow fadeInUp">
 						<!-- Post Featured Image Start-->
 						<div class="post-featured-image">
-							<a href="blog-single.html" data-cursor-text="View">
+							<a href="#" data-cursor-text="View">
 								<figure class="image-anime">
-									<img src="<?php echo base_url()?>assets/images/post-1.jpg" alt="">
+									<img src="<?php echo base_url()?>assets/images/blog1.jpg" alt="">
 								</figure>
 							</a>
 							<div class="post-item-tags">
-								<a href="blog-single.html">Shipping</a>
+								<a href="#">Shipping</a>
 							</div>
 						</div>
 						<!-- Post Featured Image End -->
@@ -968,14 +893,14 @@
 						<div class="post-item-body">
 							<!-- Post Item Content Start -->
 							<div class="post-item-content">
-								<h2><a href="blog-single.html">The Future of Global Logistics: Trends Shaping 2025</a>
+								<h2><a href="#">The Future of Global Logistics: Trends Shaping 2025</a>
 								</h2>
 							</div>
 							<!-- Post Item Content End -->
 
 							<!-- Post Item Readmore Button Start-->
 							<div class="post-item-btn">
-								<a href="blog-single.html" class="readmore-btn">view details</a>
+								<a href="#" class="readmore-btn">view details</a>
 							</div>
 							<!-- Post Item Readmore Button End-->
 						</div>
@@ -989,13 +914,13 @@
 					<div class="post-item wow fadeInUp" data-wow-delay="0.2s">
 						<!-- Post Featured Image Start-->
 						<div class="post-featured-image">
-							<a href="blog-single.html" data-cursor-text="View">
+							<a href="#" data-cursor-text="View">
 								<figure class="image-anime">
-									<img src="<?php echo base_url()?>assets/images/post-2.jpg" alt="">
+									<img src="<?php echo base_url()?>assets/images/blog2.jpg" alt="">
 								</figure>
 							</a>
 							<div class="post-item-tags">
-								<a href="blog-single.html">Delivery</a>
+								<a href="#">Delivery</a>
 							</div>
 						</div>
 						<!-- Post Featured Image End -->
@@ -1004,14 +929,14 @@
 						<div class="post-item-body">
 							<!-- Post Item Content Start -->
 							<div class="post-item-content">
-								<h2><a href="blog-single.html">Building a World International Shipping Operation</a>
+								<h2><a href="#">Building a World International Shipping Operation</a>
 								</h2>
 							</div>
 							<!-- Post Item Content End -->
 
 							<!-- Post Item Readmore Button Start-->
 							<div class="post-item-btn">
-								<a href="blog-single.html" class="readmore-btn">view details</a>
+								<a href="#" class="readmore-btn">view details</a>
 							</div>
 							<!-- Post Item Readmore Button End-->
 						</div>
@@ -1025,13 +950,13 @@
 					<div class="post-item wow fadeInUp" data-wow-delay="0.4s">
 						<!-- Post Featured Image Start-->
 						<div class="post-featured-image">
-							<a href="blog-single.html" data-cursor-text="View">
+							<a href="#" data-cursor-text="View">
 								<figure class="image-anime">
-									<img src="<?php echo base_url()?>assets/images/post-3.jpg" alt="">
+									<img src="<?php echo base_url()?>assets/images/blog3.jpg" alt="">
 								</figure>
 							</a>
 							<div class="post-item-tags">
-								<a href="blog-single.html">Solutions</a>
+								<a href="#">Solutions</a>
 							</div>
 						</div>
 						<!-- Post Featured Image End -->
@@ -1040,14 +965,14 @@
 						<div class="post-item-body">
 							<!-- Post Item Content Start -->
 							<div class="post-item-content">
-								<h2><a href="blog-single.html">Innovations Driving Faster, Safer, And Smarter
+								<h2><a href="#">Innovations Driving Faster, Safer, And Smarter
 										Deliveries</a></h2>
 							</div>
 							<!-- Post Item Content End -->
 
 							<!-- Post Item Readmore Button Start-->
 							<div class="post-item-btn">
-								<a href="blog-single.html" class="readmore-btn">view details</a>
+								<a href="#blog-single.html" class="readmore-btn">view details</a>
 							</div>
 							<!-- Post Item Readmore Button End-->
 						</div>
@@ -1059,62 +984,62 @@
 		</div>
 	</div>
 	<!-- Our Blog Section End -->
-     <!-- CtA Section started -->
-      <!-- CTA Section Start -->
-<div class="cta-section bg-section">
-    <div class="container">
-        <div class="row align-items-center">
+	<!-- CtA Section started -->
+	<!-- CTA Section Start -->
+	<div class="cta-section bg-section">
+		<div class="container">
+			<div class="row align-items-center">
 
-            <div class="col-lg-8">
-                <div class="cta-content">
-                    <h3 class="wow fadeInUp">Need Reliable Logistics Solutions?</h3>
+				<div class="col-lg-8">
+					<div class="cta-content">
+						<h3 class="wow fadeInUp">Need Reliable Logistics Solutions?</h3>
 
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">
-                        Let's Move Your Business Forward with Safe, Fast & Reliable Transportation
-                    </h2>
+						<h2 class="text-anime-style-3" data-cursor="-opaque">
+							Let's Move Your Business Forward with Safe, Fast & Reliable Transportation
+						</h2>
 
-                    <p class="wow fadeInUp" data-wow-delay="0.2s">
-                        Whether you require full truckload transportation, part load services,
-                        warehousing, or end-to-end logistics support, Jairam Logistics is ready
-                        to deliver customized solutions that meet your business needs.
-                    </p>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">
+							Whether you require full truckload transportation, part load services,
+							warehousing, or end-to-end logistics support, Jairam Logistics is ready
+							to deliver customized solutions that meet your business needs.
+						</p>
 
-                    <div class="cta-info wow fadeInUp" data-wow-delay="0.4s">
-                        <ul>
-                            <li><i class="fa-solid fa-circle-check"></i> PAN India Transportation</li>
-                            <li><i class="fa-solid fa-circle-check"></i> GPS Enabled Fleet</li>
-                            <li><i class="fa-solid fa-circle-check"></i> On-Time Delivery</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+						<div class="cta-info wow fadeInUp" data-wow-delay="0.4s">
+							<ul>
+								<li><i class="fa-solid fa-circle-check"></i> PAN India Transportation</li>
+								<li><i class="fa-solid fa-circle-check"></i> GPS Enabled Fleet</li>
+								<li><i class="fa-solid fa-circle-check"></i> On-Time Delivery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-            <div class="col-lg-4">
+				<div class="col-lg-4">
 
-                <div class="cta-box wow fadeInRight">
+					<div class="cta-box wow fadeInRight">
 
-                    <h3>Get a Free Quote</h3>
+						<h3>Get a Free Quote</h3>
 
-                    <p>
-                        Speak with our logistics experts and receive a customized transportation solution.
-                    </p>
+						<p>
+							Speak with our logistics experts and receive a customized transportation solution.
+						</p>
 
-                    <a href="<?php echo base_url('contact'); ?>" class="btn-default btn-highlighted">
-                        Request Quote
-                    </a>
+						<a href="<?php echo base_url('contact'); ?>" class="btn-default btn-highlighted">
+							Request Quote
+						</a>
 
-                    <a href="tel:+919876543210" class="btn-default mt-3">
-                        <i class="fa-solid fa-phone"></i> Call Now
-                    </a>
+						<a href="tel:+919876543210" class="btn-default mt-3">
+							<i class="fa-solid fa-phone"></i> Call Now
+						</a>
 
-                </div>
+					</div>
 
-            </div>
+				</div>
 
-        </div>
-    </div>
-</div>
-<!-- CTA Section End -->
+			</div>
+		</div>
+	</div>
+	<!-- CTA Section End -->
 	<?php $this->load->view('components/footer'); ?>
 	<?php $this->load->view('components/script'); ?>
 

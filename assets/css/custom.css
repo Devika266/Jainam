@@ -44,6 +44,7 @@
 /************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/
+
 :root{
 
     /* Brand Colors */
@@ -219,7 +220,6 @@ a:focus{
     padding-right: 0px;
     padding-left: 0px;
 }
-
 .btn-default{
 	position: relative;
     display: inline-block;
@@ -292,7 +292,71 @@ a:focus{
 .btn-default.btn-highlighted::after{
 	background-color: var(--white-color);
 }
+.section-btn-custom{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
+.btn-white-blue{
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+    border: 2px solid var(--white-color);
+    border-radius: 6px;
+    font-family: var(--accent-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    padding: 17px 58px 17px 24px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.btn-white-blue::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    width: 18px;
+    height: 18px;
+    background: url("../images/arrow-primary.svg") no-repeat center;
+    background-size: contain;
+    transform: translateY(-50%);
+    transition: all .4s ease;
+    z-index: 2;
+}
+
+.btn-white-blue::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: var(--primary-color);
+    transition: all .4s ease;
+    z-index: -1;
+}
+
+.btn-white-blue:hover{
+    color: #ffffff;
+    border-color: var(--primary-color);
+}
+
+.btn-white-blue:hover::after{
+    width: 100%;
+}
+
+.btn-white-blue:hover::before{
+    background-image: url("../images/arrow-white.svg");
+    transform: translate(3px,-50%);
+}
 .readmore-btn{
 	position: relative;
 	display: inline-block;
@@ -387,9 +451,8 @@ a:focus{
 	max-width: 1880px;
 	background-color: var(--secondary-color);
 	border-radius: 10px;
-	margin-bottom: 70px;
+	margin: 0 auto;
 }
-
 
 .bg-section .container-fluid{
 	padding: 0;
@@ -828,7 +891,6 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content{
-	display: flex;
 	flex-wrap: wrap;
 	align-items: end;
 	gap: 0 30px;
@@ -5001,7 +5063,9 @@ header.main-header .header-sticky.active{
 	.bg-section .container-fluid{
 		padding: 0 15px;
 	}
-
+	.dark-section{
+	background-color: #0b1723;
+}
 	.section-row{
 		margin-bottom: 40px;
 	}
@@ -11196,7 +11260,9 @@ header.main-header.header-elite .header-sticky.active{
         font-size: 14px;
     }	
 }
+
 .cta-section{
+	margin-bottom:70px;
     padding:100px 0;
     background:#0b1723;
 }
