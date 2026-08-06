@@ -9,13 +9,13 @@
 	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+			<div id="loading-icon"><img <?php echo base_url()?>assets//loader.svg" alt=""></div>
 		</div>
 	</div>
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<?php $this->load->view('component/navbar')?>
+	<?php $this->load->view('components/navbar')?>
 	<!-- Header End -->
 
     <!-- Page Header Section Start -->
@@ -48,7 +48,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">about us</h3>
-                        <h2 class="text-effect" data-cursor="-opaque">Driving growth & efficiency <span class="about-us-title-image-1"><img src="images/about-us-title-image-1.jpg" alt=""></span> through professional <span class="about-us-title-image-2"><img src="images/about-us-title-image-2.jpg" alt=""></span> tailored, and innovative logistics and transportation solutions.</h2>
+                        <h2 class="text-effect" data-cursor="-opaque">Driving growth & efficiency <span class="about-us-title-image-1"><img src="<?php echo base_url()?>assets/images/about-us-title-image-1.jpg" alt=""></span> through professional <span class="about-us-title-image-2"><img <?php echo base_url()?>assets//about-us-title-image-2.jpg" alt=""></span> tailored, and innovative logistics and transportation solutions.</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -60,7 +60,7 @@
                     <div class="about-us-image-box wow fadeInUp">
                         <div class="about-us-image">
                             <figure class="image-anime">
-                                <img src="images/about-us-image.jpg" alt="">
+                                <img <?php echo base_url()?>assets//about-us-image.jpg" alt="">
                             </figure>
                         </div>
                         <div class="about-counter-box">
@@ -85,7 +85,7 @@
                             </div>
                             <div class="about-us-body-image">
                                 <figure>
-                                    <img src="images/about-us-body-image.png" alt="">
+                                    <img <?php echo base_url()?>assets//about-us-body-image.png" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                         <div class="approach-item wow fadeInUp">
                             <div class="approach-item-header">
                                 <div class="icon-box">
-                                    <img src="images/icon-mission.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-mission.svg" alt="">
                                 </div>
                                 <div class="approach-item-title">
                                     <h3>Our Mission</h3>
@@ -184,7 +184,7 @@
                         <div class="approach-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="approach-item-header">
                                 <div class="icon-box">
-                                    <img src="images/icon-vision.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-vision.svg" alt="">
                                 </div>
                                 <div class="approach-item-title">
                                     <h3>Our Vision</h3>
@@ -200,7 +200,7 @@
                         <div class="approach-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="approach-item-header">
                                 <div class="icon-box">
-                                    <img src="images/icon-value.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-value.svg" alt="">
                                 </div>
                                 <div class="approach-item-title">
                                     <h3>Core Value</h3>
@@ -239,7 +239,7 @@
                             <div class="partner-contact-info-item">
                                 <!-- Icon Box Start -->
                                 <div class="icon-box">
-                                    <img src="images/icon-phone-white.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-phone-white.svg" alt="">
                                 </div>
                                 <!-- Icon Box End -->
     
@@ -256,7 +256,7 @@
                             <div class="partner-contact-info-item">
                                 <!-- Icon Box Start -->
                                 <div class="icon-box">
-                                    <img src="images/icon-mail-white.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-mail-white.svg" alt="">
                                 </div>
                                 <!-- Icon Box End -->
     
@@ -273,7 +273,7 @@
                             <div class="partner-contact-info-item location-info-item">
                                 <!-- Icon Box Start -->
                                 <div class="icon-box">
-                                    <img src="images/icon-location-white.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-location-white.svg" alt="">
                                 </div>
                                 <!-- Icon Box End -->
     
@@ -296,7 +296,7 @@
                         <!-- Partner World Map Image Start -->
                         <div class="partner-world-map-image">
                             <figure>
-                                <img src="images/world-map-image.png" alt="">
+                                <img <?php echo base_url()?>assets//world-map-image.png" alt="">
                             </figure>
                         </div>
                         <!-- Partner World Map Image End -->
@@ -307,7 +307,7 @@
                             <div class="world-map-card-item card-1">
                                 <!-- World Map Card Button Start -->
                                 <button class="world-map-card-btn">
-                                    <img src="images/icon-location-accent.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-location-accent.svg" alt="">
                                 </button>
                                 <!-- World Map Card Button End -->
                                 
@@ -315,7 +315,7 @@
                                 <div class="world-map-card-body">
                                     <div class="world-map-card-image">
                                         <figure class="image-anime">
-                                            <img src="images/world-map-card-image-1.jpg" alt="">
+                                            <img <?php echo base_url()?>assets//world-map-card-image-1.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="world-map-card-content">
@@ -331,7 +331,7 @@
                             <div class="world-map-card-item card-2">
                                 <!-- World Map Card Button Start -->
                                 <button class="world-map-card-btn">
-                                    <img src="images/icon-location-accent.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-location-accent.svg" alt="">
                                 </button>
                                 <!-- World Map Card Button End -->
                                 
@@ -339,7 +339,7 @@
                                 <div class="world-map-card-body">
                                     <div class="world-map-card-image">
                                         <figure class="image-anime">
-                                            <img src="images/world-map-card-image-1.jpg" alt="">
+                                            <img <?php echo base_url()?>assets//world-map-card-image-1.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="world-map-card-content">
@@ -355,7 +355,7 @@
                             <div class="world-map-card-item card-3 active">
                                 <!-- World Map Card Button Start -->
                                 <button class="world-map-card-btn">
-                                    <img src="images/icon-location-accent.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-location-accent.svg" alt="">
                                 </button>
                                 <!-- World Map Card Button End -->
                                 
@@ -363,7 +363,7 @@
                                 <div class="world-map-card-body">
                                     <div class="world-map-card-image">
                                         <figure class="image-anime">
-                                            <img src="images/world-map-card-image-1.jpg" alt="">
+                                            <img <?php echo base_url()?>assets//world-map-card-image-1.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="world-map-card-content">
@@ -379,7 +379,7 @@
                             <div class="world-map-card-item card-4">
                                 <!-- World Map Card Button Start -->
                                 <button class="world-map-card-btn">
-                                    <img src="images/icon-location-accent.svg" alt="">
+                                    <img <?php echo base_url()?>assets//icon-location-accent.svg" alt="">
                                 </button>
                                 <!-- World Map Card Button End -->
                                 
@@ -387,7 +387,7 @@
                                 <div class="world-map-card-body">
                                     <div class="world-map-card-image">
                                         <figure class="image-anime">
-                                            <img src="images/world-map-card-image-1.jpg" alt="">
+                                            <img <?php echo base_url()?>assets//world-map-card-image-1.jpg" alt="">
                                         </figure>
                                     </div>
                                     <div class="world-map-card-content">
@@ -410,7 +410,7 @@
                         <!-- World Map Counter Item Start -->
                         <div class="world-map-counter-item">
                             <div class="icon-box">
-                                <img src="images/icon-world-map-counter-1.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-world-map-counter-1.svg" alt="">
                             </div>
                             <div class="world-map-counter-content">
                                 <h2><span class="counter">25</span>+</h2>
@@ -422,7 +422,7 @@
                         <!-- World Map Counter Item Start -->
                         <div class="world-map-counter-item">
                             <div class="icon-box">
-                                <img src="images/icon-world-map-counter-2.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-world-map-counter-2.svg" alt="">
                             </div>
                             <div class="world-map-counter-content">
                                 <h2><span class="counter">99</span>%</h2>
@@ -434,7 +434,7 @@
                         <!-- World Map Counter Item Start -->
                         <div class="world-map-counter-item">
                             <div class="icon-box">
-                                <img src="images/icon-world-map-counter-3.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-world-map-counter-3.svg" alt="">
                             </div>
                             <div class="world-map-counter-content">
                                 <h2><span class="counter">1</span>k+</h2>
@@ -446,7 +446,7 @@
                         <!-- World Map Counter Item Start -->
                         <div class="world-map-counter-item">
                             <div class="icon-box">
-                                <img src="images/icon-world-map-counter-4.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-world-map-counter-4.svg" alt="">
                             </div>
                             <div class="world-map-counter-content">
                                 <h2><span class="counter">50</span>K+</h2>
@@ -458,7 +458,7 @@
                         <!-- World Map Counter Item Start -->
                         <div class="world-map-counter-item">
                             <div class="icon-box">
-                                <img src="images/icon-world-map-counter-5.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-world-map-counter-5.svg" alt="">
                             </div>
                             <div class="world-map-counter-content">
                                 <h2><span class="counter">24</span>/7</h2>
@@ -495,7 +495,7 @@
                         <div class="how-work-item-header">
                             <div class="how-work-item-image">
                                 <figure class="image-anime">
-                                    <img src="images/how-work-image-1.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//how-work-image-1.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="how-work-item-no">
@@ -516,7 +516,7 @@
                         <div class="how-work-item-header">
                             <div class="how-work-item-image">
                                 <figure class="image-anime">
-                                    <img src="images/how-work-image-2.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//how-work-image-2.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="how-work-item-no">
@@ -537,7 +537,7 @@
                         <div class="how-work-item-header">
                             <div class="how-work-item-image">
                                 <figure class="image-anime">
-                                    <img src="images/how-work-image-3.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//how-work-image-3.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="how-work-item-no">
@@ -558,7 +558,7 @@
                         <div class="how-work-item-header">
                             <div class="how-work-item-image">
                                 <figure class="image-anime">
-                                    <img src="images/how-work-image-4.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//how-work-image-4.jpg" alt="">
                                 </figure>
                             </div>
                             <div class="how-work-item-no">
@@ -617,7 +617,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-1.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-1.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -625,7 +625,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-2.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-2.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -633,7 +633,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-3.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-3.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -641,7 +641,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-4.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-4.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -649,7 +649,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-5.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-5.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -657,7 +657,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-6.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-6.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -665,7 +665,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-7.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-7.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -673,7 +673,7 @@
                         <!-- Our Brand Item Start -->
                         <div class="our-brand-item">
                             <figure>
-                                <img src="images/company-logo-8.svg" alt="">
+                                <img <?php echo base_url()?>assets//company-logo-8.svg" alt="">
                             </figure>
                         </div>
                         <!-- Our Brand Item End -->
@@ -707,7 +707,7 @@
                         <div class="pricing-item-header">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-pricing-1.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-pricing-1.svg" alt="">
                             </div>
                             <!-- Icon Box End -->
 
@@ -753,7 +753,7 @@
                         <div class="pricing-item-header">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-pricing-2.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-pricing-2.svg" alt="">
                             </div>
                             <!-- Icon Box End -->
 
@@ -799,7 +799,7 @@
                         <div class="pricing-item-header">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-pricing-3.svg" alt="">
+                                <img <?php echo base_url()?>assets//icon-pricing-3.svg" alt="">
                             </div>
                             <!-- Icon Box End -->
 
@@ -842,9 +842,9 @@
                     <!-- Pricing Benifit List Start -->
                     <div class="pricing-benefit-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
-                            <li><img src="images/icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
-                            <li><img src="images/icon-pricing-benefit-2.svg" alt="">No any hidden fees pay</li>
-                            <li><img src="images/icon-pricing-benefit-3.svg" alt="">You can cancel anytime</li>
+                            <li><img <?php echo base_url()?>assets//icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
+                            <li><img <?php echo base_url()?>assets//icon-pricing-benefit-2.svg" alt="">No any hidden fees pay</li>
+                            <li><img <?php echo base_url()?>assets//icon-pricing-benefit-3.svg" alt="">You can cancel anytime</li>
                         </ul>
                     </div>
                     <!-- Pricing Benifit List End -->
@@ -876,7 +876,7 @@
                         <div class="team-item-image">
                             <a href="team-single.html" class="image-anime" data-cursor-text="View">
                                 <figure>
-                                    <img src="images/team-1.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//team-1.jpg" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -914,7 +914,7 @@
                         <div class="team-item-image">
                             <a href="team-single.html" class="image-anime" data-cursor-text="View">
                                 <figure>
-                                    <img src="images/team-2.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//team-2.jpg" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -952,7 +952,7 @@
                         <div class="team-item-image">
                             <a href="team-single.html" class="image-anime" data-cursor-text="View">
                                 <figure>
-                                    <img src="images/team-3.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//team-3.jpg" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -990,7 +990,7 @@
                         <div class="team-item-image">
                             <a href="team-single.html" class="image-anime" data-cursor-text="View">
                                 <figure>
-                                    <img src="images/team-4.jpg" alt="">
+                                    <img <?php echo base_url()?>assets//team-4.jpg" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -1035,7 +1035,7 @@
                         <!-- Testimonial Image Start -->
                         <div class="testimonial-image">
                             <figure class="image-anime">
-                                <img src="images/testimonial-image.jpg" alt="">
+                                <img <?php echo base_url()?>assets//testimonial-image.jpg" alt="">
                             </figure>
                         </div>
                         <!-- Testimonial Image End -->
@@ -1046,17 +1046,17 @@
                             <div class="satisfy-client-images">
                                 <div class="satisfy-client-image">
                                     <figure class="image-anime">
-                                        <img src="images/author-1.jpg" alt="">
+                                        <img <?php echo base_url()?>assets//author-1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="satisfy-client-image">
                                     <figure class="image-anime">
-                                        <img src="images/author-2.jpg" alt="">
+                                        <img <?php echo base_url()?>assets//author-2.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="satisfy-client-image">
                                     <figure class="image-anime">
-                                        <img src="images/author-3.jpg" alt="">
+                                        <img <?php echo base_url()?>assets//author-3.jpg" alt="">
                                     </figure>
                                 </div>
                                 <div class="satisfy-client-image add-more">
@@ -1094,7 +1094,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
                                             <div class="testimonial-company-logo">
-                                                <img src="images/company-logo-1.svg" alt="">
+                                                <img <?php echo base_url()?>assets//company-logo-1.svg" alt="">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>"Their logistics solutions transformed our supply chain. On-time delivery and real-time tracking have made our operations seamless reliable, efficient, and professional service every time."</p>
@@ -1113,7 +1113,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
                                             <div class="testimonial-company-logo">
-                                                <img src="images/company-logo-2.svg" alt="">
+                                                <img <?php echo base_url()?>assets//company-logo-2.svg" alt="">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>"Their logistics solutions transformed our supply chain. On-time delivery and real-time tracking have made our operations seamless reliable, efficient, and professional service every time."</p>
@@ -1132,7 +1132,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-item">
                                             <div class="testimonial-company-logo">
-                                                <img src="images/company-logo-3.svg" alt="">
+                                                <img <?php echo base_url()?>assets//company-logo-3.svg" alt="">
                                             </div>
                                             <div class="testimonial-content">
                                                 <p>"Their logistics solutions transformed our supply chain. On-time delivery and real-time tracking have made our operations seamless reliable, efficient, and professional service every time."</p>
@@ -1288,37 +1288,6 @@
     <!-- Main Footer End -->
 
     <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Circle Progress Js File -->
-    <script src="js/circle-progress.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
-    <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
-    <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
-    <!-- Text Effect js file -->
-    <script src="js/SplitText.min.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
-    <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+<?php $this->load->view('components/script')?>
 </body>
 </html>

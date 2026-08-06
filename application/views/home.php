@@ -24,7 +24,7 @@
 		<div class="hero-bg-video">
 			<!-- Replace with your truck video if available -->
 			<video autoplay muted loop id="myvideo">
-				<source src="https://demo.awaikenthemes.com/assets/videos/carvox-video.mp4" type="video/mp4">
+				<source src="<?php echo base_url()?>assets/video/carvox-video.mp4" type="video/mp4">
 			</video>
 
 			<!-- OR use a background image instead -->
@@ -99,8 +99,6 @@
 							<li>✔ GPS Enabled Fleet</li>
 
 							<li>✔ Safe & Secure Cargo Handling</li>
-
-							<li>✔ Experienced Logistics Team</li>
 
 							<li>✔ On-Time Delivery Assurance</li>
 
