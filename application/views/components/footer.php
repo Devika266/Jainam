@@ -16,7 +16,7 @@
                         <h3>Quick link</h3>
                         <ul>
                             <li><a href="#">home</a></li>
-                            <li><a href="#">about us</a></li>
+                            <li><a href="<?php echo base_url()?>about">about us</a></li>
                             <li><a href="#">services</a></li>
                             <li><a href="#">blog</a></li>
                             <li><a href="#">Contact us</a></li>

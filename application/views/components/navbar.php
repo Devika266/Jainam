@@ -14,7 +14,7 @@
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li  class="nav-item"><a class="nav-link" href="./">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="#">About Us</a>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo base_url()?>about">About Us</a>
                                 <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#l">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
