@@ -136,24 +136,6 @@
 
                         <!-- Experience Year Box Start -->
                         <div class="experience-year-box-prime">
-                            <!-- Satisfy Client Images Start -->
-                            <div class="satisfy-client-images">
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="<?php echo base_url()?>assets/images/author-1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="<?php echo base_url()?>assets/images/author-2.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="satisfy-client-image">
-                                    <figure class="image-anime">
-                                        <img src="<?php echo base_url()?>assets/images/author-3.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </div>
                             <!-- Satisfy Client Images End -->
 
                             <!-- Experience Year Content Start -->
@@ -234,7 +216,7 @@
 
                         <!-- Why Choose Button Start -->
                         <div class="why-choose-btn-prime wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="contact.html" class="btn-default">Read More</a>
+                            <a href="#" class="btn-default">Read More</a>
                         </div>
                         <!-- Why Choose Button End -->
                     </div>
@@ -265,7 +247,7 @@
                     <div class="service-item-prime wow fadeInUp">
                         <!-- Service Image Start -->
                         <div class="service-item-image-prime">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="#" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="<?php echo base_url()?>assets/images/feature1.jpg" alt="">
                                 </figure>
@@ -279,11 +261,11 @@
                                 <img src="<?php echo base_url()?>assets/images/icon-service-1-prime.svg" alt="">
                             </div>
                             <div class="service-item-content-prime">
-                                <h3><a href="service-single.html">Premium Agriculture </a></h3>
+                                <h3><a href="#">Premium Agriculture </a></h3>
                                 <p>Apples, Citrus, Grapes, and Tropical Fruits sourced directly from certified orchards with full cold-chain custody..</p>
                             </div>
                             <div class="service-item-btn-prime">
-                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                                <a href="#" class="readmore-btn">View Details</a>
                             </div>
                         </div>
                         <!-- Service Body End -->
@@ -296,7 +278,7 @@
                     <div class="service-item-prime wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Service Image Start -->
                         <div class="service-item-image-prime">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="#" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="<?php echo base_url()?>assets/images/feature2.jpg" alt="">
                                 </figure>
@@ -310,11 +292,11 @@
                                 <img src="<?php echo base_url()?>assets/images/icon-service-2-prime.svg" alt="">
                             </div>
                             <div class="service-item-content-prime">
-                                <h3><a href="service-single.html">Farm Sourced</a></h3>
+                                <h3><a href="#">Farm Sourced</a></h3>
                                 <p>Root vegetables, leafy greens, and exotic varieties processed in certified grading facilities under strict hygienic control.</p>
                             </div>
                             <div class="service-item-btn-prime">
-                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                                <a href="#" class="readmore-btn">View Details</a>
                             </div>
                         </div>
                         <!-- Service Body End -->
@@ -327,7 +309,7 @@
                     <div class="service-item-prime wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Service Image Start -->
                         <div class="service-item-image-prime">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="#" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="<?php echo base_url()?>assets/images/feature3.jpg" alt="">
                                 </figure>
@@ -341,11 +323,11 @@
                                 <img src="<?php echo base_url()?>assets/images/icon-service-3-prime.svg" alt="">
                             </div>
                             <div class="service-item-content-prime">
-                                <h3><a href="service-single.html">Global Origins</a></h3>
+                                <h3><a href="#">Global Origins</a></h3>
                                 <p>Whole and ground spices including cardamom, black pepper, turmeric, and cumin with certified ASTA cleanliness standards.</p>
                             </div>
                             <div class="service-item-btn-prime">
-                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                                <a href="#" class="readmore-btn">View Details</a>
                             </div>
                         </div>
                         <!-- Service Body End -->
@@ -358,7 +340,7 @@
                     <div class="service-item-prime wow fadeInUp" data-wow-delay="0.6s">
                         <!-- Service Image Start -->
                         <div class="service-item-image-prime">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="#" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="<?php echo base_url()?>assets/images/feature4.jpg" alt="">
                                 </figure>
@@ -372,11 +354,11 @@
                                 <img src="<?php echo base_url()?>assets/images/icon-service-4-prime.svg" alt="">
                             </div>
                             <div class="service-item-content-prime">
-                                <h3><a href="service-single.html">Nutritional Grade</a></h3>
+                                <h3><a href="#">Nutritional Grade</a></h3>
                                 <p>Premium walnuts, almonds, cashews, raisins, and dates sourced from select global cultivators, fully tested for aflatoxins.</p>
                             </div>
                             <div class="service-item-btn-prime">
-                                <a href="service-single.html" class="readmore-btn">View Details</a>
+                                <a href="#" class="readmore-btn">View Details</a>
                             </div>
                         </div>
                         <!-- Service Body End -->
@@ -429,7 +411,7 @@
 
 											<div class="project-item-content">
 												<h3>Road Transportation</h3>
-												<p>Safe and reliable transportation services across India with timely
+												<p style="color:white">Safe and reliable transportation services across India with timely
 													deliveries.</p>
 											</div>
 										</div>
@@ -454,7 +436,7 @@
 
 											<div class="project-item-content">
 												<h3>Full Truck Load (FTL)</h3>
-												<p>Dedicated transportation solutions for bulk shipments with complete
+												<p style="color:white">Dedicated transportation solutions for bulk shipments with complete
 													safety.</p>
 											</div>
 										</div>
@@ -479,7 +461,7 @@
 
 											<div class="project-item-content">
 												<h3>Part Truck Load (LTL)</h3>
-												<p>Affordable transportation for smaller consignments with optimized
+												<p style="color:white">Affordable transportation for smaller consignments with optimized
 													delivery.</p>
 											</div>
 										</div>
@@ -504,7 +486,7 @@
 
 											<div class="project-item-content">
 												<h3>Warehousing & Distribution</h3>
-												<p>Secure warehousing with inventory management and efficient
+												<p style="color:white">Secure warehousing with inventory management and efficient
 													distribution services.</p>
 											</div>
 										</div>
@@ -529,7 +511,7 @@
 
 											<div class="project-item-content">
 												<h3>Supply Chain Solutions</h3>
-												<p>End-to-end logistics planning and supply chain management for
+												<p style="color:white">End-to-end logistics planning and supply chain management for
 													businesses.</p>
 											</div>
 										</div>
@@ -554,7 +536,7 @@
 
 											<div class="project-item-content">
 												<h3>GPS Fleet Tracking</h3>
-												<p>Real-time shipment tracking and complete visibility throughout
+												<p style="color:white">Real-time shipment tracking and complete visibility throughout
 													transportation.</p>
 											</div>
 										</div>
@@ -608,7 +590,7 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Guaranteed Cold Chain</a></h3>
+										<h3>Guaranteed Cold Chain</h3>
 										<p>Continuous temperature logging and controlled atmosphere containers protect agricultural integrity.</p>
 									</div>
 
@@ -629,7 +611,7 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Direct Farm Sourcing</a></h3>
+										<h3>Direct Farm Sourcing</h3>
 										<p>By eliminating speculative intermediaries, we lock in superior pricing and verified crop origins.</p>
 									</div>
 
@@ -650,7 +632,7 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Risk Mitigation</a></h3>
+										<h3>Risk Mitigation</h3>
 										<p>Comprehensive marine cargo insurance and robust commercial contract structures secure your capital.</p>
 									</div>
 
@@ -671,7 +653,7 @@
 									</div>
 
 									<div class="interactive-process-item-content-wap">
-										<h3><a href="#">Real-Time Tracking</a></h3>
+										<h3>Real-Time Tracking</h3>
 										<p>Full milestone telemetry from shipping line dispatch through to port customs clearance and final delivery</p>
 									</div>
 
@@ -972,7 +954,7 @@
 
 							<!-- Post Item Readmore Button Start-->
 							<div class="post-item-btn">
-								<a href="#blog-single.html" class="readmore-btn">view details</a>
+								<a href="#" class="readmore-btn">view details</a>
 							</div>
 							<!-- Post Item Readmore Button End-->
 						</div>

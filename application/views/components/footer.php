@@ -15,11 +15,11 @@
                     <div class="footer-links">
                         <h3>Quick link</h3>
                         <ul>
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="about.html">about us</a></li>
-                            <li><a href="services.html">services</a></li>
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
